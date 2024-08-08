@@ -47,6 +47,19 @@ So the two columns together, are unique.
 You can create a composite primary key that uses more than one column as a unique pair
 */
 
+-- Add the Values
+
+-- Values for majors Table
+INSERT INTO majors (major) VALUES ('Database Administration');
+
+-- Values for courses Table
+INSERT INTO courses (course) VALUES ('Data Structures and Algorithms');
+
+-- Values for Majors_Courses Table
+INSERT INTO majors_courses (major_id, course_id) VALUES (1, 1);
+
+-- Values for Students
+INSERT INTO students (first_name, last_name, major_id, gpa) VALUES ('Rhea', 'Kellems', 1, 2.5);
 
 
 
