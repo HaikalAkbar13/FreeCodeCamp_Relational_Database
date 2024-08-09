@@ -1,7 +1,13 @@
---
+-- 
 -- PostgreSQL database dump
 --
-
+/*
+This file was a dump and this file was finished.
+you still can use it, but when you excute it
+it'll automatically insert all the Values each table
+if you wants to see the inserting process you can see 
+the INSERT_DATA.sh file. 
+*/
 -- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 -- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 
